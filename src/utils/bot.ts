@@ -17,6 +17,12 @@ Eu sou um bot para te ajudar com o Hinário.
 `);
 });
 
+bot.help((ctx) => {
+  ctx.reply(`
+Digite o número do hino que deseja.
+  `);
+});
+
 // reguex para pegar um número até 3 digitos
 const regexNumber = /^\d{1,3}$/;
 
